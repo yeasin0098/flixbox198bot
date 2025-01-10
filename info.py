@@ -13,13 +13,13 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21728358'))
-API_HASH = environ.get('API_HASH', '61e8f3015f8b91ede4ed436e67948f9d')
+API_ID = int(environ.get('API_ID', '22289104'))
+API_HASH = environ.get('API_HASH', 'aaf65adaaf2280501e1f88239b481df5')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7305659839').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/offline_24h") # ADMIN USERNAME
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7969641815').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Doctor_brown_12") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002172693078'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+cnWoBUqd3DoxZGY1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002411988710').split()]
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co.com/RPW1QHC/IMG-20241222-191639-961.jpg https://i.ibb.co.com/py43PyP/IMG-20241222-191643-664.jpg https://i.ibb.co.com/BGQZf7Q/IMG-20241222-191707-915.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://i.ibb.co.com/6n8mJkx/IMG-20250110-172437-808.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://i.ibb.co.com/XjpQYw9/01621973961-7-59-06-PM-Dec-22-2024-png.jpg')).split()
